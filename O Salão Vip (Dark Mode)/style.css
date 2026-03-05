@@ -1,0 +1,40 @@
+body {
+    background-color:darkred;
+}
+body.modo-vip {
+    background-color:black;
+}
+
+header {
+    background-color: aliceblue;
+    width: auto;
+    text-align: center;
+    border-style: groove;
+}
+
+header button{
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-color: black;
+    border-radius: 16%;
+}
+
+.intro {
+    margin-top: 16px;
+    color: aliceblue;
+    border-style:double;
+    background-color: black;
+    text-align: center;
+}
+
+.intro p{
+    text-align: center;
+}
+
+.benefits{
+    margin-top: 16px;
+    color: aliceblue;
+    border-style:double;
+    background-color: black;
+    text-align: center;
+}
