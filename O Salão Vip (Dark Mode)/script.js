@@ -5,13 +5,12 @@
 // - mudar benefits
 // - reverter para o original
 
-const btn = document.querySelector('button')
-const p = document.querySelector('.intro p') ;
+const btn = document.getElementById('button')
+const divs = document.getElementsByTagName('div')
 
 btn.addEventListener('click', () => {
     // document.body.style.backgroundColor = 'lightblue';
     // btn.innerHTML = 'Cliquei';
     document.body.classList.toggle('modo-vip')
-    btn.innerHTML = 'Normal Mode'
-    p.classList.toggle('modo-vip')
+    btn.innerHTML = document.body.classList.contains('modo-vip') ? 'Normal Mode' : 'VIP Mode';
 })
