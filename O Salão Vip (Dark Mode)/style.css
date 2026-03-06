@@ -3,6 +3,7 @@ body {
 }
 body.modo-vip {
     background-color:rgb(62, 4, 95);
+    width: auto;
 }
 
 header {
@@ -59,9 +60,23 @@ body.modo-vip .intro {
     text-align: center;
 }
 
+.vip-benefits {
+    display: none;
+}
+
 body.modo-vip .benefits{
+    display: none;
     margin-top: 16px;
     color: darkred;
+    border-style:double;
+    background-color: azure;
+    text-align: center;
+}
+
+body.modo-vip .vip-benefits {
+    display: block;
+    margin-top: 16px;
+    color: rgb(255, 183, 0);
     border-style:double;
     background-color: azure;
     text-align: center;
