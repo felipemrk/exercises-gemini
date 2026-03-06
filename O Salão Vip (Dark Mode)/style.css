@@ -2,11 +2,18 @@ body {
     background-color:darkred;
 }
 body.modo-vip {
-    background-color:black;
+    background-color:rgb(62, 4, 95);
 }
 
 header {
     background-color: aliceblue;
+    width: auto;
+    text-align: center;
+    border-style: groove;
+}
+
+body.modo-vip header {
+    background-color: darkgoldenrod;
     width: auto;
     text-align: center;
     border-style: groove;
@@ -19,6 +26,15 @@ header button{
     border-radius: 16%;
 }
 
+body.modo-vip header button{
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: azure;
+    border-color: black;
+    border-radius: 16%;
+}
+
 .intro {
     margin-top: 16px;
     color: aliceblue;
@@ -27,7 +43,11 @@ header button{
     text-align: center;
 }
 
-.intro p{
+body.modo-vip .intro {
+    margin-top: 16px;
+    color: darkred;
+    border-style:double;
+    background-color:azure;
     text-align: center;
 }
 
@@ -38,3 +58,20 @@ header button{
     background-color: black;
     text-align: center;
 }
+
+body.modo-vip .benefits{
+    margin-top: 16px;
+    color: darkred;
+    border-style:double;
+    background-color: azure;
+    text-align: center;
+}
+
+/* 
+div.modo-vip{
+    margin-top: 16px;
+    color: black;
+    border-style:double;
+    background-color: darkred;
+    text-align: center;
+} */
