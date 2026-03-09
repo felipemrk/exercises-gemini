@@ -1,6 +1,8 @@
-const btn = document.querySelector('.play-button')
+const btn = document.getElementById("play-button");
 
-btn.addEventListener('click', () => {
-    const musicas = document.querySelector('.musics-ul')
-    musicas.classList.toggle('reproduzido')
-})
+btn.addEventListener("click", () => {
+	lista = document.querySelectorAll('li')
+	lista.forEach(musica => {
+		musica.style.color = 'red'
+	});
+});
